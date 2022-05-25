@@ -1,0 +1,20 @@
+Variables: una variable es un contenedor a la cual se le pone un nombre, después en el cual, como dice la palabra,
+pueden variar los elementos que podemos guardar adentro de ese contenedor, entre palabras y números.
+
+Strings: Los strings son textos que van entre comillas dobles “ ” o simples ‘ ’, cualquier caractér que cumpla 
+con ese único requisito es una string, ya sea una oración, una palabra, un número, una letra e incluso un espacio
+vacío encerrado entre comillas es un string.
+
+Funciones: las funciones son procedimientos que realizan una tarea o calculan un valor, y nos devuelven una 
+respuesta, por ejemplo, le podemos decir que haga algo, como saludar, sumar, dividir, restar o multiplicar, también
+tienen un nombre y para que no sea tan difícil saber qué hace cada una de las funciones, se le da un nombre 
+que describa que hace cada función, entonces si mas adelante necesitamos de esa función la podemos ‘’llamar” por 
+su nombre y usarla. Es importante que cada ves que la llamamos usemos los paréntesis después del nombre “()” y 
+dentro de esos paréntesis podemos escribir los argumentos, variables y distintos datos para poder usarla.
+Y para que la función nos de una “respuesta” o nos “devuelva algo” tenemos que usar la palabra return, que significa
+retorno, nada sale de una función a menos que usemos esa palabra, y solo nos va a devolver lo que nosotros le 
+pedimos que nos devuelva.
+
+If: se usa para tomar decisiones de verdadero o falso
+
+Valores booleanos: Son un tipo de dato que solo pueden ser verdadero o falso
