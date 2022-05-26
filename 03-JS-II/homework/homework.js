@@ -15,7 +15,7 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
- if(edad > 18){
+ if(edad >= 18){
   return 'Allowed'
  }
  else if(edad < 18){
@@ -67,13 +67,13 @@ function colors(color) {
   //Usar el statement Switch.
   switch(color) {
     case 'blue':
-    return 'this is blue';
+    return 'This is blue';
     case 'red':
-    return 'this is red';
+    return 'This is red';
     case 'green':
-    return 'this is green';
+    return 'This is green';
     case 'orange':
-    return 'this is orange';
+    return 'This is orange';
     default:
     return 'Color not found';
   }
@@ -86,7 +86,7 @@ function esDiezOCinco(numero) {
  if(numero === 10 || numero === 5){
   return true;
  }
- else false
+ else return false
 }
 
 function estaEnRango(numero) {
@@ -124,7 +124,7 @@ function fizzBuzz(numero) {
   else if(numero % 5 === 0){
    return "buzz";
   }
-  else if(numero % 3 === 0 || numero % 5 === 0){
+  else if(numero % 3 === 0 && numero % 5 === 0){
    return "fizzbuzz";
   }
   else return numero;
@@ -138,9 +138,9 @@ function operadoresLogicos(num1, num2, num3) {
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
   if(num1 > num2 && num1 > num3 && num1 > 0){
-    return "Numero 1 es mayor y positivo";
+    return "Número 1 es mayor y positivo";
   }
-  else if(num1 < 0 && num2 < 0 && num3 < 0){
+  else if(num1 < 0 || num2 < 0 || num3 < 0){
     return 'Hay negativos'
   }
   else if(num3 > num1 && num3 > num2){
@@ -211,7 +211,6 @@ do{
 while(x < 8);
 return a;
 }
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
